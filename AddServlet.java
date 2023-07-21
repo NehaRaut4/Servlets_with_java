@@ -25,6 +25,10 @@ public class AddServlet extends HttpServlet {
 		pw.print("Addition - "+ans);
 		
 	}
+	//HTTP Status 405 – Method Not Allowed
+	//HTTP method GET is not supported by this URL
+	 /*The method received in the request-line is known by the origin server
+	 but not supported by the target resource.*/
 	
 
 }
